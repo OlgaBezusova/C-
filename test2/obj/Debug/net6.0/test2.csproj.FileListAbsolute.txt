@@ -1,0 +1,15 @@
+C:\Users\Professional\Desktop\C#_seminar1\test2\bin\Debug\net6.0\test2.exe
+C:\Users\Professional\Desktop\C#_seminar1\test2\bin\Debug\net6.0\test2.deps.json
+C:\Users\Professional\Desktop\C#_seminar1\test2\bin\Debug\net6.0\test2.runtimeconfig.json
+C:\Users\Professional\Desktop\C#_seminar1\test2\bin\Debug\net6.0\test2.dll
+C:\Users\Professional\Desktop\C#_seminar1\test2\bin\Debug\net6.0\test2.pdb
+C:\Users\Professional\Desktop\C#_seminar1\test2\obj\Debug\net6.0\test2.csproj.AssemblyReference.cache
+C:\Users\Professional\Desktop\C#_seminar1\test2\obj\Debug\net6.0\test2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Professional\Desktop\C#_seminar1\test2\obj\Debug\net6.0\test2.AssemblyInfoInputs.cache
+C:\Users\Professional\Desktop\C#_seminar1\test2\obj\Debug\net6.0\test2.AssemblyInfo.cs
+C:\Users\Professional\Desktop\C#_seminar1\test2\obj\Debug\net6.0\test2.csproj.CoreCompileInputs.cache
+C:\Users\Professional\Desktop\C#_seminar1\test2\obj\Debug\net6.0\test2.dll
+C:\Users\Professional\Desktop\C#_seminar1\test2\obj\Debug\net6.0\refint\test2.dll
+C:\Users\Professional\Desktop\C#_seminar1\test2\obj\Debug\net6.0\test2.pdb
+C:\Users\Professional\Desktop\C#_seminar1\test2\obj\Debug\net6.0\test2.genruntimeconfig.cache
+C:\Users\Professional\Desktop\C#_seminar1\test2\obj\Debug\net6.0\ref\test2.dll
