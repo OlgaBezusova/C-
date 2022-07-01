@@ -12,7 +12,10 @@ if( num > 0)
 {
     while(count <= num)
     {
-        if(count % 2 == 0){ Console.WriteLine($"Найдено четное число в диапазоне от 1 до {num}: {count}"); }
+        if(count % 2 == 0)
+        {
+             Console.WriteLine($"Найдено четное число в диапазоне от 1 до {num}: {count}");
+        }
         count++;
     }
 }
