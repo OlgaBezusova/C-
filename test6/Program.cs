@@ -4,11 +4,20 @@
 85 - > 8
 */
 
-int GetRandomNumber(int minBorder, int maxBorder);
+int GetRandomNumber(int minBorder, int maxBorder)
+
 {
-    int result = new Random().Next(minBorder, maxBorder+1 );
+    int result = new Random().Next(minBorder, maxBorder+1);
     return result;
 }
+int GetMaxDigit(int number)
+{
+    number = Math.Abs(number);
+    if (number > )
+}
 int randomNumber = GetRandomNumber(10,99);
-Console.WriteLine(randomNumber);
+
+Console.WriteLine( randomNumber );
+
+
 
