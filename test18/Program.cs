@@ -5,25 +5,32 @@
 int quarter;
 Console.WriteLine("введите номер четверти: ");
 quarter=Convert.ToInt32(Console.ReadLine());
-if (quarter==1) 
+if (quarter>0 && quarter<5)
 {
-  Console.WriteLine("x = 0,+~ ");
-  Console.WriteLine("y = 0,+~ ");
+    if (quarter==1) 
+    {
+      Console.WriteLine("x = 0,+~ ");
+      Console.WriteLine("y = 0,+~ ");
+    }
+    if (quarter==2)
+    {
+      Console.WriteLine("x = 0,+~ ");
+      Console.WriteLine("y = 0,-~ ");
+    }
+    if (quarter==3)
+    {
+      Console.WriteLine("x = 0,-~ ");
+      Console.WriteLine("y = 0,-~ ");
+    }
+    if (quarter==4)
+    {
+      Console.WriteLine("x = 0,-~ ");
+      Console.WriteLine("y = 0,+~ ");
+    }
 }
-if (quarter==2)
+else 
 {
-  Console.WriteLine("x = 0,+~ ");
-  Console.WriteLine("y = 0,-~ ");
-}
-if (quarter==3)
-{
-  Console.WriteLine("x = 0,-~ ");
-  Console.WriteLine("y = 0,-~ ");
-}
-if (quarter==4)
-{
-  Console.WriteLine("x = 0,-~ ");
-  Console.WriteLine("y = 0,+~ ");
+  Console.WriteLine("такой четверти не существует!");    
 }
     
 
