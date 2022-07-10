@@ -5,3 +5,21 @@
 
 2, 4 -> 16 */
 
+int Exp(int A, int B)
+{
+  int с = 1;
+  for(int i=1; i <= B; i++)
+  {
+    с = с * A;
+  }
+    return с;
+}
+
+  Console.Write("Введите число A: ");
+  int A = Convert.ToInt32(Console.ReadLine());
+  Console.Write("Введите число B: ");
+  int B = Convert.ToInt32(Console.ReadLine());
+
+  int exp = Exp(A, B);
+  Console.WriteLine("Число А в степени B равно " + exp);
+  
