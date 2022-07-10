@@ -8,7 +8,7 @@
 int Exp(int A, int B)
 {
   int с = 1;
-  for(int i=1; i <= B; i++)
+  for(int i=1; i <= B; i=i+1 )
   {
     с = с * A;
   }
@@ -22,4 +22,4 @@ int Exp(int A, int B)
 
   int exp = Exp(A, B);
   Console.WriteLine("Число А в степени B равно " + exp);
-  
+
