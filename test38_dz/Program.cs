@@ -29,3 +29,8 @@ double decision = maxNumber - minNumber;
 Console.WriteLine($"разница между максимальным ({maxNumber}) и минимальным({minNumber}) элементами: {decision}");
 
 
+/*Console.WriteLine("Введите размер массива ");
+int a=Convert.ToInt32(Console.ReadLine());
+double[] array= new double [a];
+for(int i =0; i<array.Length; i++){
+array[i]=new Random().NextDouble()*100;}*/
