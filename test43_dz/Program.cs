@@ -12,7 +12,7 @@ void GetCrossPoint(double b1, double k1, double b2, double k2)
             Console.WriteLine("Прямые совпадают.");
         }
         else{
-            Console.WriteLine("Решения не существует.");
+            Console.WriteLine("Решения нет.");
         }
     }
     else
@@ -24,13 +24,14 @@ void GetCrossPoint(double b1, double k1, double b2, double k2)
 }
 
 
-Console.Write("Введите значение b1...");
+Console.Write("Введите b1:");
 double b1 = Convert.ToDouble(Console.ReadLine());
-Console.Write("Введите значение k1...");
+Console.Write("Введите k1:");
 double k1 = Convert.ToDouble(Console.ReadLine());
-Console.Write("Введите значение b2...");
+Console.Write("Введите b2:");
 double b2 = Convert.ToDouble(Console.ReadLine());
-Console.Write("Введите значение k2...");
+Console.Write("Введите k2:");
 double k2 = Convert.ToDouble(Console.ReadLine());
 GetCrossPoint(b1, k1, b2, k2);
+
 
