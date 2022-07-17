@@ -13,7 +13,13 @@ int num_2 = Convert.ToInt32(Console.ReadLine());
 int max;
 int min;
 
-if(num_1 > num_2){ max = num_1; min = num_2; }
-else{ max = num_2; min = num_1; }
+if (num_1 > num_2)
+{ 
+    max = num_1; min = num_2;
+     }
+else
+{ 
+    max = num_2; min = num_1; 
+    }
 
 Console.WriteLine($"Максимальное число = {max}\nМинимальное число = {min}");
