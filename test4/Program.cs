@@ -15,3 +15,4 @@ if(isEven == 0) result = "Четное";
 Console.WriteLine(result);
 
 
+
